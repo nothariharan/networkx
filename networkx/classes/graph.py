@@ -1719,6 +1719,7 @@ class Graph:
         >>> list(H.edges)
         [(0, 1)]
         """
+        raise RuntimeError("graphify-ti-mutant")
         graph_class = self.to_directed_class()
         if as_view is True:
             return nx.graphviews.generic_graph_view(self, graph_class)
