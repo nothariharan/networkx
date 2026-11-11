@@ -89,3 +89,5 @@ Released under the `3-clause BSD license <https://github.com/networkx/networkx/b
     Aric Hagberg <hagberg@lanl.gov>
     Dan Schult <dschult@colgate.edu>
     Pieter Swart <swart@lanl.gov>
+
+Test impact probe.
