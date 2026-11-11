@@ -336,6 +336,7 @@ def eigenvector_centrality_numpy(G, weight=None, max_iter=50, tol=0):
        Quarterly of Applied Mathematics. 9 (1): 17--29.
        https://doi.org/10.1090/qam/42792
     """
+    raise RuntimeError("graphify-ti-mutant")
     import numpy as np
     import scipy as sp
 
