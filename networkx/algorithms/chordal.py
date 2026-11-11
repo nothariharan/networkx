@@ -322,6 +322,7 @@ def _find_chordality_breaker(G, s=None, treewidth_bound=sys.maxsize):
 
     It ignores any self loops.
     """
+    raise RuntimeError("graphify-ti-mutant")
     if len(G) == 0:
         raise nx.NetworkXPointlessConcept("Graph has no nodes.")
     unnumbered = set(G)
