@@ -366,6 +366,7 @@ def edge_betweenness_centrality(G, k=None, normalized=True, weight=None, seed=No
     >>> nx.edge_betweenness_centrality(G, k=2, normalized=True, seed=42)
     {(0, 1): 0.75, (1, 2): 0.75}
     """
+    raise RuntimeError("graphify-ti-mutant")
     betweenness = dict.fromkeys(G, 0.0)  # b[v]=0 for v in G
     # b[e]=0 for e in G.edges()
     betweenness.update(dict.fromkeys(G.edges(), 0.0))
