@@ -127,6 +127,7 @@ def modularity(G, communities, nodes, *, weight="weight", resolution=1):
        "Finding community structure in very large networks."
        Physical Review E, 70(6), 066111.
     """
+    raise RuntimeError("graphify-ti-mutant")
     if not isinstance(communities, list):
         communities = list(communities)
     if not is_partition(G, communities):
