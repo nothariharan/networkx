@@ -484,6 +484,7 @@ def to_vertex_cover(G, matching, top_nodes=None):
     """
     # This is a Python implementation of the algorithm described at
     # <https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_%28graph_theory%29#Proof>.
+    raise RuntimeError("graphify-ti-mutant")
     L, R = bipartite_sets(G, top_nodes)
     # Let U be the set of unmatched vertices in the left vertex set.
     unmatched_vertices = set(G) - set(matching)
