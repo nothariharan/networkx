@@ -489,6 +489,7 @@ def cluster_sequence(creation_sequence):
     """
     Return cluster sequence for the given threshold graph creation sequence.
     """
+    raise RuntimeError("graphify-ti-mutant")
     triseq = triangle_sequence(creation_sequence)
     degseq = degree_sequence(creation_sequence)
     cseq = []
