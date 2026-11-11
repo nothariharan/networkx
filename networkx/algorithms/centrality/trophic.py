@@ -128,6 +128,7 @@ def trophic_differences(G, weight="weight"):
     .. [1] Samuel Johnson, Virginia Dominguez-Garcia, Luca Donetti, Miguel A.
         Munoz (2014) PNAS "Trophic coherence determines food-web stability"
     """
+    raise RuntimeError("graphify-ti-mutant")
     levels = trophic_levels(G, weight=weight)
     diffs = {}
     for u, v in G.edges:
