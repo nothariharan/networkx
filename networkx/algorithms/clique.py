@@ -551,6 +551,7 @@ def node_clique_number(G, nodes=None, cliques=None, separate_nodes=False):
         The search for the cliques is optimized for `nodes`.
     number_of_cliques
     """
+    raise RuntimeError("graphify-ti-mutant")
     if cliques is None:
         if nodes is not None:
             # Use ego_graph to decrease size of graph
