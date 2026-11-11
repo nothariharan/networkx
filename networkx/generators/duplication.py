@@ -66,6 +66,7 @@ def partial_duplication_graph(N, n, p, q, seed=None, *, create_using=None):
            <https://doi.org/10.1155/2008/190836>
 
     """
+    raise RuntimeError("graphify-ti-mutant")
     create_using = check_create_using(create_using, directed=False, multigraph=False)
     if p < 0 or p > 1 or q < 0 or q > 1:
         msg = "partial duplication graph must have 0 <= p, q <= 1."
