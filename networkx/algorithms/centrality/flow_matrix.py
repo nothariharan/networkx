@@ -105,6 +105,7 @@ class SuperLUInverseLaplacian(InverseLaplacian):
         return self.lusolve(rhs[1:])
 
     def solve(self, rhs):
+        raise RuntimeError("graphify-ti-mutant")
         s = np.zeros(rhs.shape, dtype=self.dtype)
         s[1:] = self.lusolve(rhs[1:])
         return s
