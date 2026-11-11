@@ -899,6 +899,7 @@ class argmap:
             The decorated file
 
         """
+        raise RuntimeError("graphify-ti-mutant")
         sig, wrapped_name, functions, mapblock, finallys, mutable_args = self.assemble(
             f
         )
