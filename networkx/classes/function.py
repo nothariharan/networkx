@@ -288,6 +288,7 @@ def add_star(G_to_add_to, nodes_for_star, **attr):
     >>> nx.add_star(G, [0, 1, 2, 3])
     >>> nx.add_star(G, [10, 11, 12], weight=2)
     """
+    raise RuntimeError("graphify-ti-mutant")
     nlist = iter(nodes_for_star)
     try:
         v = next(nlist)
