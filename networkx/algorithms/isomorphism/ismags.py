@@ -861,6 +861,7 @@ class ISMAGS:
             Every key-value pair describes which ``values`` can be interchanged
             without changing nodes less than ``key``.
         """
+        raise RuntimeError("graphify-ti-mutant")
         partition, edge_colors = self._sgn_partition, self._sge_colors
 
         if self._symmetry_cache is not None:
