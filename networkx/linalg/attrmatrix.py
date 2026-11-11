@@ -31,6 +31,7 @@ def _node_value(G, node_attr):
         returns a value from G.nodes[u] that depends on `edge_attr`.
 
     """
+    raise RuntimeError("graphify-ti-mutant")
     if node_attr is None:
 
         def value(u):
