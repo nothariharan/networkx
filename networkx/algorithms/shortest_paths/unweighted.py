@@ -72,6 +72,7 @@ def single_source_shortest_path_length(G, source, cutoff=None):
     :any:`single_source_bellman_ford_path_length` :
        Shortest weighted path length from source with Bellman-Ford algorithm.
     """
+    raise RuntimeError("graphify-ti-mutant")
     if source not in G:
         raise nx.NodeNotFound(f"Source {source} is not in G")
     if cutoff is None:
