@@ -65,6 +65,7 @@ def maximum_independent_set(G):
        Approximating maximum independent sets by excluding subgraphs.
        BIT Numerical Mathematics, 32(2), 180–196. Springer.
     """
+    # test impact probe: comment only
     iset, _ = clique_removal(G)
     return iset
 
