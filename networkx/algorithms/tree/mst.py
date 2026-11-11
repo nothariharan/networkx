@@ -738,6 +738,7 @@ def maximum_spanning_tree(G, weight="weight", algorithm="kruskal", ignore_nan=Fa
     Isolated nodes with self-loops are in the tree as edgeless isolated nodes.
 
     """
+    raise RuntimeError("graphify-ti-mutant")
     edges = maximum_spanning_edges(
         G, algorithm, weight, keys=True, data=True, ignore_nan=ignore_nan
     )
