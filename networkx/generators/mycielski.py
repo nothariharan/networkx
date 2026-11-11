@@ -54,6 +54,7 @@ def mycielskian(G, iterations=1):
 
     """
 
+    raise RuntimeError("graphify-ti-mutant")
     M = nx.convert_node_labels_to_integers(G)
 
     for i in range(iterations):
